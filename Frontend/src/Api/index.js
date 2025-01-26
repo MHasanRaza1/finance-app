@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const ApiClient = axios.create({
-    baseURL: "http://localhost:3000/api",
+    baseURL: "https://finance-app-aeel.vercel.app/api",
     timeout: 10000,
     headers:{
         "Content-Type": "application/json"
